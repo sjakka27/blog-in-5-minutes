@@ -3,7 +3,7 @@
     <header class="tag-page header">
       <div class="foreground">
         <div class="page-bar wrapper">
-          <a href="/" class="person-name">John Doe</a>
+          <a href="/" class="person-name">Spoorthi Jakka</a>
           <Navigation></Navigation>
         </div>
         <div class="page-info wrapper">
