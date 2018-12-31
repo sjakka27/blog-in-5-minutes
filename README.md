@@ -1,35 +1,30 @@
-# blog-in-5-min
+# Contentful blog
 
-> A statically rendered blog based on Contentful
+>A simple blog using Contentful to manage content!
 
-![Preview of the Blog](./docs/images/home.png "Preview of the Blog")
+## Live Demo
+Coming Soon
 
-This project is the result of our [Interactive getting started CLI tutorial](https://www.contentful.com/developers/docs/tutorials/general/get-started/). The [Contentful CLI](https://www.npmjs.com/package/contentful-cli) helps you automating things like the creation of spaces and access tokens. We recommend using it to bootstrap this project.
+## Getting Started
+I forked this repo from [blog-in-5-minutes](https://github.com/contentful/blog-in-5-minutes) so head over [here](https://github.com/contentful/blog-in-5-minutes/blob/master/docs/GETTING-STARTED.md) to get set up.
 
-## Introduction
+## Deploy
 
-The project can be used as a base to get you started with Contentful. It includes the following features:
+### Preview Site Locally
 
-- static site generation
-- dynamic server side rendering for development
-- deploy to [now](https://zeit.co/now)
-- responsive images via [Images API](https://www.contentful.com/developers/docs/references/images-api/)
-- tags for blog posts
+```bash
+$ npm run dev
+```
+One of the big advantages of using Nuxt is that it comes with static site generation! Nuxt will go through the routes of our site and generate a dist folder containing purely static HMTL files which you can then use to host your site on any static site hosting service. 
+To try this out, run nuxt generate and then use a simple http server like http-server to serve the generated dist folder. 
 
-## Getting started
+```bash
+$ npm run generate
+$ npm install -g http-server 
+$ cd dist
+$ http-server
+```
 
-In case you want to see how to set up a project yourself please check out [the getting started guide](./docs/GETTING-STARTED.md).
 
-## Technical stack
 
-This project is based on [nuxt.js](https://nuxtjs.org/).
-
-### Why nuxt.js?
-
-Nuxt.js is based on [Vue.js](https://vuejs.org/). Vue is a fairly new JS framework that provides excellent documentation and is a pleasure to work with. nuxt.js sits on top of Vue and was choosen because of two main feature:
-
-- dynamic server side rendering for development
-- static file generation for production
-
-For detailed explanation on how things work, check out the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
