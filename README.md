@@ -3,7 +3,7 @@
 >A simple blog using Contentful to manage content!
 
 ## Live Demo
-Coming Soon
+[https://sjakka.azurewebsites.net/](https://sjakka.azurewebsites.net/)
 
 ## Getting Started
 I forked this repo from [blog-in-5-minutes](https://github.com/contentful/blog-in-5-minutes) so head over [here](https://github.com/contentful/blog-in-5-minutes/blob/master/docs/GETTING-STARTED.md) to get set up.
